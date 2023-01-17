@@ -20,7 +20,7 @@
   - Python memperlakukan tanda kutip tunggal (' ') sama dengan tanda kutip ganda (" ").
   - Membuat string semudah memberi nilai pada sebuah variabel.
   
-## Latihan 1
+# Latihan 1
 ![image](https://user-images.githubusercontent.com/115516473/212881620-c5e4d4f4-ac13-400b-980d-ee53be0ca15a.png)
 
 ## Penjelasan :
@@ -68,3 +68,25 @@ print()
 
 ## Output :
 
+![prak 10-latihan1](https://user-images.githubusercontent.com/115516473/212885200-cb49ed16-a255-4b4f-8b8d-8e3c43dec0ff.png)
+
+# Latihan 2
+
+![image](https://user-images.githubusercontent.com/115516473/212885396-1499dd2e-283d-469c-b467-0fbcd37a23fd.png)
+
+## Penjelasan :
+
+- Untuk memasukkan variable ke dalam string, tambahkan kurung kurawal ```{} untuk menempatkan variable sebelumnya.```
+
+```
+  umur = 24
+  txt = "\nHello, nama saya john, dan umur saya adalah {0} tahun\n"
+
+  print(txt.format(umur))
+```
+
+## Output :
+
+![prak 10-latihan2](https://user-images.githubusercontent.com/115516473/212886058-ed36e819-0249-4f8d-97c2-bd36a04a3869.png)
+
+# Selesai ^_^
